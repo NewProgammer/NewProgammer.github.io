@@ -2,6 +2,16 @@
 <html lang="en">
     <title>Home</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <script>
+        // Array of favicon image filenames
+        var faviconImages = ['blahaj.png','fancyBlahaj.png'];
+        
+        // Generate a random index
+        var randomIndex = Math.floor(Math.random() * faviconImages.length);
+        
+        // Set the href attribute of the favicon link tag
+        document.getElementById('favicon').href = faviconImages[randomIndex];
+    </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
