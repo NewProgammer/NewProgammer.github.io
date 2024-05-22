@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script>
+        // Array of favicon image filenames
+        var faviconImages = ['blahaj.png','fancyBlahaj.png'];
+        
+        // Generate a random index
+        var randomIndex = Math.floor(Math.random() * faviconImages.length);
+        
+        // Set the href attribute of the favicon link tag
+        document.getElementById('favicon').href = faviconImages[randomIndex];
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #e0ffe0;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #80c080;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        nav a.home {
+            color: #40a040;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/home" class="home">Home</a>
+        <a href="/blog" class="blog">Blog</a>
+        <a href="/about" class="about">About</a>
+        <a href="/gallery" class="gallery">Gallery</a>
+    </nav>
+    <h1>About Me</h1>
+    <p>Hello! I'm Lily.</p>
+    <h2>Things I am</h2>
+    <ul>
+        <li>15</li>
+        <li>A Freshman in Highschool</li>
+        <li>Trans Girl</li>
+        <li>Blahaj enthusiast</li>
+    </ul>
+    <h2>Things I like</h2>
+    <ul>
+        <li>Blahaj</li>
+        <li>Programming</li>
+        <li>Video Games</li>
+        <li>Anatomy and Science</li>
+        <li>Blahaj</li>
+        <li>Making Art</li>
+        <li>Listening to Music</li>
+        </li> <a href="https://www.reddit.com/r/196/">196</a></li>
+        </li> <a href="https://www.youtube.com/channel/UC1E-JS8L0j1Ei70D9VEFrPQ">Vowsh</a></li>	
+    </ul>
+    <h2>Things I Hate</h2>
+    <ul>
+        <li>Conservatives</li>
+        <li>Geometry</li>
+        <li>Bigots</li>
+        <li>Chuds</li>
+        <li>Bootlikers</li>
+        <li>carrd.co"(make your own website, it's not that hard)"</li>
+    </ul>
+    <h2>Socials</h2>
+    <ul>
+        <li>Discord: LilyandBlahaj</li>
+        <li><a href="https://www.reddit.com/user/Scary-Bit-4173/">Reddit</a></li>
+        <li><a href="https://www.youtube.com/channel/UCL8h77GDvhBlAnm10TrUJ4A">Youtube</a></li>
+    </ul>
+</body>
+</html>
