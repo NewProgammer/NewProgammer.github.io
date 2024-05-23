@@ -44,10 +44,14 @@
             color: #ffffff;
         }
         .right-top-align {
-            position: absolute;
             right: 0;
             top: 0;
             z-index: -1;
+        }
+        .image-container {
+            position: absolute;
+            width: auto;
+            height: auto;
         }
     </style>
 </head>
@@ -94,8 +98,10 @@
         <li><a href="https://www.reddit.com/user/Scary-Bit-4173/">Reddit</a></li>
         <li><a href="https://www.youtube.com/channel/UCL8h77GDvhBlAnm10TrUJ4A">Youtube</a></li>
     </ul>
-    <img src="mirrorSelfieLily.png" class="right-top-align">
-    <img src="jarlChomps.jpg" class="right-top-align">
-    <img src="bokyTGG.jpg" class="right-top-align" style="transform: scale(.05);">
+    <div class="image-container">
+        <img src="mirrorSelfieLily.png" class="right-top-align">
+        <img src="jarlChomps.jpg" class="right-top-align" style="transform: scale(.1);">
+        <img src="bokyTGG.jpg" class="right-top-align" style="transform: scale(.1);">
+    </div>
 </body>
 </html>
