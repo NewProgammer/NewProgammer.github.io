@@ -28,6 +28,17 @@
         h1 {
             color: #ffffff;
         }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
+        .grid-item {
+            width: 500px;
+            height: 150px;
+            background-color: #ddd;
+            border: 1px solid #000;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +48,11 @@
         <a href="/about" class="about">About</a>
         <a href="/gallery" class="gallery">Gallery</a>
     </nav>
-    <h1>This page is under construction go to a different one</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <image src="blahaj.png" width="500" height="150">
+            <p>A simple Blahaj</p>
+        </div>
+    </div> 
 </body>
 </html>
